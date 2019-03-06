@@ -5,8 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFCal"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="383.945" Width="601.835">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="199*"/>
+            <ColumnDefinition Width="65*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="BT_Dodawanie" Content="Dodawanie" HorizontalAlignment="Left" Margin="20,30,0,0" VerticalAlignment="Top" Width="88" Click="BT_Dodawanie_Click"/>
+        <TextBox x:Name="TXB_1" HorizontalAlignment="Left" Height="20" Margin="125,30,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="BT_Odejmowanie" Content="Odejmowanie" HorizontalAlignment="Left" Margin="20,70,0,0" VerticalAlignment="Top" Width="88"/>
+        <Button x:Name="BT_Mnożenie" Content="Mnożenie" HorizontalAlignment="Left" Margin="20,110,0,0" VerticalAlignment="Top" Width="88"/>
+        <Button x:Name="BT_Dzielenie" Content="Dzielenie" HorizontalAlignment="Left" Margin="20,150,0,0" VerticalAlignment="Top" Width="88"/>
+        <TextBox x:Name="TXB_2" HorizontalAlignment="Left" Height="19" Margin="125,71,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+
     </Grid>
 </Window>
