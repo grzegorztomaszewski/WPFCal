@@ -5,18 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFCal"
         mc:Ignorable="d"
-        Title="MainWindow" Height="383.945" Width="601.835">
+        Title="MainWindow" Height="248.944" Width="291.169">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="199*"/>
-            <ColumnDefinition Width="65*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="BT_Dodawanie" Content="Dodawanie" HorizontalAlignment="Left" Margin="20,30,0,0" VerticalAlignment="Top" Width="88" Click="BT_Dodawanie_Click"/>
-        <TextBox x:Name="TXB_1" HorizontalAlignment="Left" Height="20" Margin="125,30,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="BT_Odejmowanie" Content="Odejmowanie" HorizontalAlignment="Left" Margin="20,70,0,0" VerticalAlignment="Top" Width="88"/>
-        <Button x:Name="BT_Mnożenie" Content="Mnożenie" HorizontalAlignment="Left" Margin="20,110,0,0" VerticalAlignment="Top" Width="88"/>
-        <Button x:Name="BT_Dzielenie" Content="Dzielenie" HorizontalAlignment="Left" Margin="20,150,0,0" VerticalAlignment="Top" Width="88"/>
-        <TextBox x:Name="TXB_2" HorizontalAlignment="Left" Height="19" Margin="125,71,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtDisplay" HorizontalAlignment="Left" Height="23" Margin="21,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="225"/>
+        <Button x:Name="BT_7" Content="7" HorizontalAlignment="Left" Margin="21,61,0,0" VerticalAlignment="Top" Width="40" Height="20" Click="BT_7_Click"/>
+        <Button x:Name="BT_8" Content="8" HorizontalAlignment="Left" Margin="76,61,0,0" VerticalAlignment="Top" Width="40" Height="20" Click="BT_8_Click"/>
+        <Button x:Name="BT_9" Content="9" HorizontalAlignment="Left" Margin="132,61,0,0" VerticalAlignment="Top" Width="40" Height="20" Click="BT_9_Click"/>
+        <Button x:Name="BT_4" Content="4" HorizontalAlignment="Left" Margin="21,99,0,0" VerticalAlignment="Top" Width="40" Height="20" Click="BT_4_Click"/>
+        <Button x:Name="BT_5" Content="5" HorizontalAlignment="Left" Margin="76,99,0,0" VerticalAlignment="Top" Width="40" Height="20" Click="BT_5_Click"/>
+        <Button x:Name="BT_6" Content="6" HorizontalAlignment="Left" Margin="132,99,0,0" VerticalAlignment="Top" Width="40" Height="20" Click="BT_6_Click"/>
+        <Button x:Name="BT_1" Content="1" HorizontalAlignment="Left" Margin="21,137,0,0" VerticalAlignment="Top" Width="40" Click="BT_1_Click" Height="20"/>
+        <Button x:Name="BT_2" Content="2" HorizontalAlignment="Left" Margin="76,137,0,0" VerticalAlignment="Top" Width="40" Height="20" Click="BT_2_Click"/>
+        <Button x:Name="BT_3" Content="3" HorizontalAlignment="Left" Margin="132,137,0,0" VerticalAlignment="Top" Width="40" Height="20" Click="BT_3_Click"/>
+        <Button x:Name="BT_0" Content="0" HorizontalAlignment="Left" Margin="21,173,0,0" VerticalAlignment="Top" Width="40" Height="20" Click="BT_0_Click"/>
+        <Button x:Name="BT_DoubleZero" Content="00" HorizontalAlignment="Left" Margin="76,173,0,0" VerticalAlignment="Top" Width="40" RenderTransformOrigin="0.516,0.433" Height="20" Click="BT_DoubleZero_Click"/>
+        <Button x:Name="BT_Dot" Content="." HorizontalAlignment="Left" Margin="132,173,0,0" VerticalAlignment="Top" Width="40" Click="BT_Dot_Click" Height="20"/>
+        <Button x:Name="BT_Plus" Content="+" HorizontalAlignment="Left" Margin="185,137,0,0" VerticalAlignment="Top" Width="24" Height="56" Click="BT_Plus_Click"/>
+        <Button x:Name="BT_Equals" Content="=" HorizontalAlignment="Left" Margin="222,137,0,0" VerticalAlignment="Top" Width="24" Height="56" Click="BT_Equals_Click"/>
+        <Button x:Name="BT_Minus" Content="-" HorizontalAlignment="Left" Margin="185,99,0,0" VerticalAlignment="Top" Width="24" Height="20" Click="BT_Minus_Click"/>
+        <Button x:Name="BT_Increase" Content="x" HorizontalAlignment="Left" Margin="222,99,0,0" VerticalAlignment="Top" Width="24" Click="BT_Increase_Click" Height="20"/>
+        <Button x:Name="BT_Split" Content="/" HorizontalAlignment="Left" Margin="185,61,0,0" VerticalAlignment="Top" Width="24" Height="20" Click="BT_Split_Click"/>
+        <Button x:Name="BT_Clear" Content="C" HorizontalAlignment="Left" Margin="222,61,0,0" VerticalAlignment="Top" Width="24" Height="20" Click="BT_Clear_Click"/>
 
     </Grid>
 </Window>
